@@ -2,6 +2,7 @@
 ~*
 *.bak
 *.zip
+*.pdf
 fp-info-cache
 fp-lib-table
 sym-lib-table
