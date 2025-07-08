@@ -11,3 +11,5 @@ configuration.
 
 In free-running mode, the clock frequency can be varied using the 
 on-board potentiometer, ranging from about 1 Hz to about 3 KHz.
+
+![Clock Module Photo](clock-module-555.png)
