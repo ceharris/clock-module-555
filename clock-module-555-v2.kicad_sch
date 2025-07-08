@@ -1392,12 +1392,13 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Polarized"
+		(symbol "Device:C_Polarized_US"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
 				(offset 0.254)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1411,7 +1412,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C_Polarized"
+			(property "Value" "C_Polarized_US"
 				(at 0.635 -2.54 0)
 				(effects
 					(font
@@ -1421,7 +1422,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1438,7 +1439,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Polarized capacitor"
+			(property "Description" "Polarized capacitor, US symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1465,12 +1466,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
+			(symbol "C_Polarized_US_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
 					(stroke
-						(width 0)
+						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -1491,7 +1493,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
+						(xy -1.27 1.778) (xy -1.27 2.794)
 					)
 					(stroke
 						(width 0)
@@ -1501,19 +1503,20 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
+				(arc
+					(start -2.032 -1.27)
+					(mid 0 -0.5572)
+					(end 2.032 -1.27)
 					(stroke
-						(width 0)
+						(width 0.508)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 			)
-			(symbol "C_Polarized_1_1"
+			(symbol "C_Polarized_US_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -1534,7 +1537,7 @@
 				)
 				(pin passive line
 					(at 0 -3.81 90)
-					(length 2.794)
+					(length 3.302)
 					(name "~"
 						(effects
 							(font
@@ -6500,8 +6503,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 240.03 36.83 180)
+		(lib_id "Device:C_Polarized_US")
+		(at 240.03 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6510,25 +6513,25 @@
 		(fields_autoplaced yes)
 		(uuid "291e27b6-4d90-441c-8e42-ea31cc09a0bb")
 		(property "Reference" "C13"
-			(at 243.84 36.449 0)
+			(at 243.84 34.9249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "1uF"
-			(at 243.84 38.989 0)
+			(at 243.84 37.4649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
-			(at 239.0648 33.02 0)
+			(at 240.03 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6545,7 +6548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor, US symbol"
 			(at 240.03 36.83 0)
 			(effects
 				(font
@@ -6580,7 +6583,7 @@
 		(fields_autoplaced yes)
 		(uuid "2bae5b03-1409-4568-9e6b-9d3a8ce96965")
 		(property "Reference" "C12"
-			(at 186.436 128.2763 0)
+			(at 185.42 128.2762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6588,8 +6591,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 186.436 130.8163 0)
+		(property "Value" "1uF"
+			(at 185.42 130.8162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7767,7 +7770,7 @@
 		(fields_autoplaced yes)
 		(uuid "6bc9010e-0ee1-4ffc-b028-2af795f2b167")
 		(property "Reference" "RV1"
-			(at 192.024 113.03 0)
+			(at 191.77 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7775,8 +7778,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100K"
-			(at 192.024 115.57 0)
+		(property "Value" "1M"
+			(at 191.77 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
