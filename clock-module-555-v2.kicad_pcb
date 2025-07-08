@@ -5978,7 +5978,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP*W7.62mm* SO14*")
-		(path "/c9d2c097-a636-4ab4-b465-86c0086f6667")
+		(path "/f78c4481-0521-4a9a-b402-13a5ad152aec")
 		(sheetname "/")
 		(sheetfile "clock-module-555-v2.kicad_sch")
 		(attr through_hole)
@@ -9763,6 +9763,18 @@
 				(thickness 0.15)
 			)
 			(justify bottom)
+		)
+	)
+	(gr_text "Rev 2"
+		(at 35.4 27.4 0)
+		(layer "B.SilkS")
+		(uuid "03c04290-31ce-4435-94b4-de9b343713e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(gr_text "Designed in Blacksburg, Virginia, USA"
